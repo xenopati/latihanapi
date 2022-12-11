@@ -38,3 +38,5 @@ Route::delete('delete-tests/{id}', [ApiController::class, 'delete']);
 Route::post('filter-tests', [ApiController::class, 'filter']);
 
 Route::get('get-paging', [ApiController::class, 'index_paging']);
+
+Route::post('register', [ApiController::class, 'register']);
